@@ -6,7 +6,7 @@ public class EnvioMar implements IEnvio{
         //incrementa 25%
         System.out.println("Envio realizado por Mar>>>");
         System.out.println("\tSe le incrementa un 25%:");
-        empresa.getPrecio() + empresa.getPrecio()*25/100;
+        empresa.setPrecio(empresa.getPrecio() + empresa.getPrecio()*25/100);
         System.out.println("Nuevo precio actualizado: " + empresa.getPrecio() + "Bs");
         System.out.println("====================================================");
     }

@@ -6,7 +6,7 @@ public class EnvioTierra implements IEnvio{
         //incrementa 5%
         System.out.println("Envio realizado por Tierra>>>");
         System.out.println("\tSe le incrementa un 5%:");
-        empresa.getPrecio() + empresa.getPrecio()*5/100;
+        empresa.setPrecio(empresa.getPrecio() + empresa.getPrecio()*5/100);
         System.out.println("Nuevo precio actualizado: " + empresa.getPrecio() + "Bs");
         System.out.println("====================================================");
     }
